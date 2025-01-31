@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #45474B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    background-color: #F4CE14;
+    width: 100vw;
+    padding: 1rem;
+    color: #F5F7F8;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 40px;
+    /* padding: 0 0 0 50%; */
+}
+
+.js-form {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+
+}
+
+.js-form label {
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+h2 {
+    margin: 0 5%;
+}
+
+body ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 0.5rem;
+    border: 2px solid #45474B;
+
+}
+
+.lista h3{
+    background-color: rgb(224, 224, 224);
+}
+
+
+.padrao {
+    all: unset;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: #F4CE14;
+    text-align: center;
+    color: #45474B;
+
+}
+
+.btEditar {
+    margin: 0.5rem 0;
+    align-self: center;
+}
+
+.btDel {
+    margin: 0.5rem 0;
+    align-self: center;
+}
+
+.btEditar:hover{
+    color: #F5F7F8;
+    background-color: #ceb31d;
+}
+
+.btDel:hover{
+    color: #F5F7F8;
+    background-color: #ceb31d;
+}
+
+.btDel:active {
+    color: #F5F7F8;
+    background-color: red;
+}
